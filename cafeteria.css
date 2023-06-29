@@ -1,0 +1,212 @@
+/*efeitos globais*/
+*{margin:0;
+padding:0;
+box-sizing:border-box;}
+.container-parallax1,
+.container-parallax2,
+.container-parallax3,
+.container-parallax4,
+.container-parallax5 {
+background-attachment: fixed;
+background-position: center;
+position:relative;
+background-size: cover;}
+/*topo pagina*/
+.topo{position: fixed;
+z-index: 1;
+width: 100%;
+background-color: #604829;
+height: 11%;}
+.topo img{width:100px;
+position: relative;
+left:15%}
+.topo div { position: absolute;
+    top: 35%;
+    right: 15%;}
+.topo a{color: #c4a47c;
+text-decoration:none;
+text-shadow:3px 5px 2px #000000;
+letter-spacing: 2px;
+font-family:"Oswald", sans-serif;
+font-size:18px;
+margin-right:20px;
+font-weight: 700;}
+/*container-parallax*/
+.container-parallax1{background-image: url('imagens/parallax-imagem1.png');
+height:80vw}
+.container-parallax1 h1{font-family:"Fraunces", serif;
+text-align:center;
+top:45%;
+position:absolute;
+color: #fff;
+font-weight: 400;
+left:0;
+right:0;
+font-size:100px}
+.paragrafo {margin-top:30px;
+text-align: center;
+color: #666;
+line-height:30px;
+letter-spacing:2px;
+padding:80px 0px;
+}
+.paragrafo h2{color:#c4a47c;
+font-size:40px;
+margin-bottom:20px}
+.paragrafo p{font-family:"Lato", "sans-serif";
+letter-spacing: 1px;
+max-width:1024px;
+width:100%;
+margin:0 auto;
+padding:0 24px}
+.container-parallax2{background-image: url('imagens/parallax-imagem2.jpg');
+height: 50vw;}
+.container-parallax2 p{text-align: center;
+position: absolute;
+color:#fff;
+background-color:#604829;
+border:3px;
+font-weight: 400;
+font-size:40px;
+left:0;
+right:0;
+top:45%;
+margin:0 300px;
+font-style:italic ;}
+.container-parallax3{background-image: url('imagens/parallax-imagem3.jpg');
+height:50vw}
+.container-parallax3 p{text-align: center;
+    position: absolute;
+    color:#fff;
+    background-color:#604829;
+    border:3px;
+    font-weight: 400;
+    font-size:40px;
+    left:0;
+    right:0;
+    top:45%;
+    margin:0 300px;
+    font-style:italic }
+.container-parallax4{background-image: url('imagens/parallax-imagem4.png');
+height:100vw;}
+.container-parallax4 h2{  width: 500px;
+    padding: 10px;
+    position: relative;
+    top: 10%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    font-size: 24px;
+    font-family: "Oswald", serif;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #fff;
+    background-color: #604829;}
+.contatos{   width: 500px;
+    padding: 10px;
+    position: absolute;
+    bottom: 8%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: #604829;
+}
+.contatos p{
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    line-height: 36px;
+    text-shadow: 0px 6px 8px #000000;
+    text-align: center;}
+.container-parallax4 iframe{position:absolute; 
+    width:1000px;
+    top:30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom:30px;
+    height:500px
+}
+.container-parallax5 {
+    height: 85vh;
+    background-image: url("imagens/cafeteria.jpg");
+}
+
+.container-parallax5 h2 {
+    position: absolute;
+    margin: 0 auto;
+    top: 20%;
+    right: 0;
+    left: 0;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    letter-spacing: 8px;
+    color: white;
+}
+
+.lista-horarios { /* tag <ul> */
+    max-width: 768px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 20%;
+    right: 0;
+    left: 0;
+    font-family: "Oswald", sans-serif;
+    list-style: none;
+}
+
+.lista-horarios li { /* tag <li> */
+    position: relative;
+}
+
+.lista-horarios li h3 { /* subtitulo = <h3> */
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.lista-horarios li div { /* tarja = <div> */
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    right: 0;
+    left: 0;
+    background-color: #ACACAC
+}
+
+.lista-horarios li p,
+.texto-marrom { /* paragrafo + span*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+}
+
+.texto-marrom {
+    color: #c4a47c;
+}
+
+.lista-horarios li p {
+    color: #ACACAC;
+}
+.rodape{text-align: center;
+color:white;
+background-color: black;
+font-family:"Lato",sans-serif;
+position: relative;
+letter-spacing: 2px;
+padding:20px 0;
+line-height:34px;
+font-weight:600}
+.rodape span{color: #c4a47c;}
+.rodape a{background-image: url('imagens/seta-para-cima.png');
+width:60px;
+height:60px;
+right:50px;
+bottom:80px;
+background-position: center;
+background-size: cover;
+border-radius: 4px;
+display: inline-block;
+position: absolute;}
